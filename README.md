@@ -29,7 +29,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 - [x] GIVEN a CMS-style blog site
 - [x] WHEN I visit the site for the first time
-- [x]THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
+- [x] THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
 - [x] WHEN I click on the homepage option
 - [x] THEN I am taken to the homepage
 - [x] WHEN I click on any other links in the navigation
@@ -62,17 +62,17 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 - [x] THEN I am automatically signed out of the site 
   
 ## Description
-
-![login page](https://github.com/FAC-73/primitive-notion/blob/main/public/assets/login.png?raw=true)
 A full stack application for a blog site site allowing users to create an account and make blog posts to the application. 
 A user, once signed in is routed to their dashboard where they can add new posts and view all of their existing posts, and make updates or remove posts
+![login page](https://github.com/FAC-73/primitive-notion/blob/main/public/assets/login.png?raw=true)
 <br><br>
+Users can also add comments to other users posts once signed in. Each post is appended with a user name, which in the database is appended to an ID that's assigned on creation of an account.
 ![Dashboard](https://github.com/FAC-73/primitive-notion/blob/main/public/assets/dashboard.png?raw=true)
 <br><br>
 ![home page](https://github.com/FAC-73/primitive-notion/blob/main/public/assets/Home.png?raw=true)
-Users can also add comments to other users posts once signed in. Each post is appended with a user name, which in the database is appended to an ID that's assigned on creation of an account.
 <br><br>
 This application is configured with an Express.js API, and uses Sequelize to interact with a MySQL database.
+It also uses handlebars.js for front-end views and layouts, as well as javascript for interactions
 <br><br>
 Launch application [click here](https://damp-shore-67565.herokuapp.com/)
 
