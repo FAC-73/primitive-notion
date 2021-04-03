@@ -1,9 +1,8 @@
 # Model View Controller - Tech Blog
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<br>
 A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
-<br />
+<br /><br />
 
 ![Blog site](https://github.com/FAC-73/primitive-notion/blob/main/public/assets/Home.png?raw=true)
 Launch application [click here](https://damp-shore-67565.herokuapp.com/)
@@ -64,9 +63,11 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ## Description
 A full stack application for a blog site site allowing users to create an account and make blog posts to the application. 
 A user, once signed in is routed to their dashboard where they can add new posts and view all of their existing posts, and make updates or remove posts
+<br><br>
 ![login page](https://github.com/FAC-73/primitive-notion/blob/main/public/assets/login.png?raw=true)
 <br><br>
 Users can also add comments to other users posts once signed in. Each post is appended with a user name, which in the database is appended to an ID that's assigned on creation of an account.
+<br><br>
 ![Dashboard](https://github.com/FAC-73/primitive-notion/blob/main/public/assets/dashboard.png?raw=true)
 <br><br>
 ![home page](https://github.com/FAC-73/primitive-notion/blob/main/public/assets/Home.png?raw=true)
